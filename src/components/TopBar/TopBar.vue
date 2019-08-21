@@ -26,6 +26,8 @@ export default {
   background: #1d1d1d;
   color: #fff;
   position: fixed;
+  top: 0;
+  left: 0;
   .top-bar{
     display: flex;
     height: 50px;
@@ -38,7 +40,7 @@ export default {
       .logo{
         display: block;
         height: 50px;
-        background: url('../assets/images/logo.png') no-repeat -1px -4px;
+        background: url('../../assets/images/logo.png') no-repeat -1px -4px;
         background-size: cover;
       }
     }

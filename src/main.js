@@ -12,6 +12,14 @@ import './assets/styles/reset.scss'
 // 引入字体文件css
 import './assets/fonts/iconfont.css'
 
+// 引入vue-awesome-swiper
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.min.css'
+
+import axios from 'axios'
+Vue.prototype.axios = axios
+Vue.use(VueAwesomeSwiper)
+
 Vue.config.productionTip = false
 fastclick.attach(document.body)
 
