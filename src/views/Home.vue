@@ -6,12 +6,14 @@
         <index-swpier></index-swpier>
       </div>
     </div>
+    <hot-products></hot-products>
   </div>
 </template>
 
 <script>
 import TopBar from '../components/TopBar/TopBar'
 import IndexSwpier from '../components/IndexSwiper/IndexSwpier'
+import HotProducts from '../components/HotProducts/HotProducts'
 export default {
   name: 'home',
   data() {
@@ -22,7 +24,8 @@ export default {
   },
   components: {
     TopBar,
-    IndexSwpier
+    IndexSwpier,
+    HotProducts
   }
 }
 </script>

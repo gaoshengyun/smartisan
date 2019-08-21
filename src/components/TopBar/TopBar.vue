@@ -26,6 +26,7 @@ export default {
   background: #1d1d1d;
   color: #fff;
   position: fixed;
+  z-index: 9;
   top: 0;
   left: 0;
   .top-bar{

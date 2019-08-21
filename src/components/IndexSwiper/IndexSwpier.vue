@@ -41,9 +41,12 @@ export default {
 </script>
 <style lang="scss" scoped>
 .wrap-swiper{
-  background: #ffffff;
+  background: #ffffff; 
+  margin: 7px 0 14px;
+  padding: 0 10px;
   .swiper-img{
     width: 100%;
+    border-radius: 8px;
   }
 }
 </style>
