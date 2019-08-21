@@ -1,5 +1,9 @@
 <template>
   <div class="wrap-hot-products">
+    <h2>
+      <span>热销商品</span>
+      <span> &gt; </span>
+    </h2>
     <swiper :options="swiperOption">
       <swiper-slide
         v-for="(item, index) in hotProductsList" :key="item.id"
@@ -49,6 +53,16 @@ export default {
 <style lang="scss" scoped>
 .wrap-hot-products{
   padding: 0 10px;
+  background: #fff;
+  box-shadow: 0 5px 13px rgba(0,0,0,.1);
+  margin-bottom: 6px;
+  h2{
+    line-height: 40px;
+    color: #666;
+    font-size: .75rem;
+    display: flex;
+    justify-content: space-between;
+  }
   .wrap-product{
     img{
       width: 100%;

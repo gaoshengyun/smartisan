@@ -31,10 +31,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.home{
+  background: #E5E5E5;
+}
 .wrap-index-content-body{
   background: #ffffff;
   height: 100%;
   margin-top: 50px;
+  margin-bottom: 6px;
+  box-shadow: 0 5px 13px rgba(0,0,0,.1);
   overflow-y: auto;
   overflow-x: hidden;
   .index-content-body{
