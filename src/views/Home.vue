@@ -7,6 +7,7 @@
       </div>
     </div>
     <hot-products></hot-products>
+    <clothing-boxes></clothing-boxes>
   </div>
 </template>
 
@@ -14,6 +15,7 @@
 import TopBar from '../components/TopBar/TopBar'
 import IndexSwpier from '../components/IndexSwiper/IndexSwpier'
 import HotProducts from '../components/HotProducts/HotProducts'
+import ClothingBoxes from '../components/ClothingBoxes/ClothingBoxes'
 export default {
   name: 'home',
   data() {
@@ -25,7 +27,8 @@ export default {
   components: {
     TopBar,
     IndexSwpier,
-    HotProducts
+    HotProducts,
+    ClothingBoxes
   }
 }
 </script>
@@ -44,7 +47,6 @@ export default {
   overflow-x: hidden;
   .index-content-body{
     background: #e4e4e4;
-
   }
 }
 </style>

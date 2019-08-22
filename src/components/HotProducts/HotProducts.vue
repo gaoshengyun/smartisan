@@ -52,7 +52,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .wrap-hot-products{
-  padding: 0 10px;
+  padding: 0 10px 20px;
   background: #fff;
   box-shadow: 0 5px 13px rgba(0,0,0,.1);
   margin-bottom: 6px;
@@ -62,6 +62,8 @@ export default {
     font-size: .75rem;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #EBEBEB;
+    box-sizing: border-box;
   }
   .wrap-product{
     img{
