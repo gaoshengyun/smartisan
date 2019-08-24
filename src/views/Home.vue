@@ -14,6 +14,7 @@
     <product-list  :productList="changhuxiList" :title="changhuxiListTitle"></product-list>
     <!-- 手机及配件 -->
     <product-list  :productList="mobileList" :title="mobileListTitle"></product-list>
+    <foot></foot>
   </div>
 </template>
 
@@ -23,6 +24,7 @@ import IndexSwpier from '../components/IndexSwiper/IndexSwpier'
 import HotProducts from '../components/HotProducts/HotProducts'
 import ClothingBoxes from '../components/ClothingBoxes/ClothingBoxes'
 import ProductList from '../components/ProductList/ProductList'
+import Foot from '../components/Footer/Footer'
 export default {
   name: 'home',
   data() {
@@ -42,7 +44,8 @@ export default {
     IndexSwpier,
     HotProducts,
     ClothingBoxes,
-    ProductList
+    ProductList,
+    Foot
   },
   methods: {
     getOfficalParts() {
@@ -87,6 +90,7 @@ export default {
 <style lang="scss" scoped>
 .home{
   background: #E5E5E5;
+  padding-bottom: 50px;
 }
 .wrap-index-content-body{
   background: #ffffff;
