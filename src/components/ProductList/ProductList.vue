@@ -5,7 +5,7 @@
       <span> &gt; </span>
     </h2>
     <div class="offical-parts-content">
-      <div class="offical-parts-item" v-for="(item, index) in officalPartsList" :key="item.id">
+      <div class="offical-parts-item" v-for="(item, index) in productList" :key="item.id">
         <span v-if="item.promotion" class="promotion">{{item.promotion}}</span>
         <img :src="item.imgUrl" alt="">
         <p class="product-name">{{item.productName}}</p>
@@ -20,10 +20,10 @@
 </template>
 <script>
 export default {
-  name: 'OfficalParts',
+  name: 'ProductList',
   props: {
     title: String,
-    officalPartsList: Array
+    productList: Array
   }
 }
 </script>

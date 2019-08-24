@@ -9,8 +9,11 @@
     <hot-products></hot-products>
     <clothing-boxes ></clothing-boxes>
     <!-- 官方配件  -->
-    <product-list  :officalPartsList="officalPartsList" :title="offIcalPartsListTitle"></product-list>
+    <product-list  :productList="officalPartsList" :title="offIcalPartsListTitle"></product-list>
     <!-- 畅呼吸 -->
+    <product-list  :productList="changhuxiList" :title="changhuxiListTitle"></product-list>
+    <!-- 手机及配件 -->
+    <product-list  :productList="mobileList" :title="mobileListTitle"></product-list>
   </div>
 </template>
 
@@ -27,7 +30,11 @@ export default {
       showLogo: true,
       showText: '',
       officalPartsList: [],
-      offIcalPartsListTitle: '官方配件'
+      offIcalPartsListTitle: '官方配件',
+      changhuxiList: [],
+      changhuxiListTitle: '畅呼吸',
+      mobileList: [],
+      mobileListTitle: '坚果系列手机及配件'
     }
   },
   components: {
@@ -47,10 +54,32 @@ export default {
       if(res.status === 200 && res.data.code === 1) {
         this.officalPartsList = res.data.data
       }
+    },
+    getChanghuxi() {
+      this.axios.get('https://www.easy-mock.com/mock/5d5bb45db009ce622b9ded94/api/changhuxi')
+      .then(this.getChanghuxiSuccess)
+      .catch(err => console.log(err))
+    },
+    getChanghuxiSuccess(res) {
+      if(res.status === 200 && res.data.code === 1) {
+        this.changhuxiList = res.data.data
+      }
+    },
+    getMobileList() {
+      this.axios.get('https://www.easy-mock.com/mock/5d5bb45db009ce622b9ded94/api/mobileparts')
+        .then(this.getMobileSuccess)
+        .catch(err => console.log(err))
+    },
+    getMobileSuccess(res) {
+      if(res.status === 200 && res.data.code === 1) {
+        this.mobileList = res.data.data
+      }
     }
   },
   mounted() {
     this.getOfficalParts()
+    this.getChanghuxi()
+    this.getMobileList()
   },
 }
 </script>
