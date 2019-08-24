@@ -1,11 +1,11 @@
 <template>
   <div class="wrap-offical-parts">
     <h2>
-      <span>官方配件</span>
+      <span>{{title}}</span>
       <span> &gt; </span>
     </h2>
     <div class="offical-parts-content">
-      <div class="offical-parts-item" v-for="(item, index) in list" :key="item.id">
+      <div class="offical-parts-item" v-for="(item, index) in officalPartsList" :key="item.id">
         <span v-if="item.promotion" class="promotion">{{item.promotion}}</span>
         <img :src="item.imgUrl" alt="">
         <p class="product-name">{{item.productName}}</p>
@@ -15,33 +15,16 @@
           <span class="market-price">&yen; {{item.marketPrice}}</span>
         </div>
       </div>
-      
     </div>
   </div>
 </template>
 <script>
 export default {
   name: 'OfficalParts',
-  data() {
-    return {
-      list: []
-    }
-  },
-  methods: {
-    getOfficalParts() {
-      this.axios.get('https://www.easy-mock.com/mock/5d5bb45db009ce622b9ded94/api/officalPatrs')
-        .then(this.getOfficalPartsSuccess)
-        .catch(err => console.log(err))
-    },
-    getOfficalPartsSuccess(res) {
-      if(res.status === 200 && res.data.code === 1) {
-        this.list = res.data.data
-      }
-    }
-  },
-  mounted() {
-    this.getOfficalParts()
-  },
+  props: {
+    title: String,
+    officalPartsList: Array
+  }
 }
 </script>
 <style lang="scss" scoped>
