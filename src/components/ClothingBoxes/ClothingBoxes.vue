@@ -85,6 +85,7 @@ export default {
         .product-name{
           font-size: .6rem;
           color: #333;
+          font-weight: bold;
         }
         .product-slogan{
           font-size: .5rem;

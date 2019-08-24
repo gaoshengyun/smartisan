@@ -8,6 +8,7 @@
     </div>
     <hot-products></hot-products>
     <clothing-boxes></clothing-boxes>
+    <offical-parts></offical-parts>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import TopBar from '../components/TopBar/TopBar'
 import IndexSwpier from '../components/IndexSwiper/IndexSwpier'
 import HotProducts from '../components/HotProducts/HotProducts'
 import ClothingBoxes from '../components/ClothingBoxes/ClothingBoxes'
+import OfficalParts from '../components/OfficalParts/OfficalParts'
 export default {
   name: 'home',
   data() {
@@ -28,7 +30,8 @@ export default {
     TopBar,
     IndexSwpier,
     HotProducts,
-    ClothingBoxes
+    ClothingBoxes,
+    OfficalParts
   }
 }
 </script>
