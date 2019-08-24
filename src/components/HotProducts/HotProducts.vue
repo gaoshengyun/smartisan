@@ -42,7 +42,6 @@ export default {
       if(res.status === 200 && res.data.code === 1) {
         this.hotProductsList = res.data.data
       }
-      console.log(res)
     }
   },
   mounted() {
