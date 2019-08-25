@@ -5,26 +5,43 @@
       <img src="https://resource.smartisan.com/resource/b1d887c9246cee3a8ba7a7a7c57d5a50.png" alt="">
     </div>
     <ul class="mobile-list">
-      <li>
+      <router-link tag="li" 
+        v-for="(item, index) in list" :key="item.id"
+        :to="baseProductUrl+item.productId"
+      >
         <div class="left">
-          <img src="https://resource.smartisan.com/resource/25cc6e783a664fbdf83c3c34774a9826.png" alt="">
-          坚果 Pro 2S
+          <img :src="item.imgUrl" alt="">
+          {{item.productName}}
         </div>
         <div class="right">&gt;</div>
-      </li>
-      <li>
-        <div class="left">
-          <img src="https://resource.smartisan.com/resource/25cc6e783a664fbdf83c3c34774a9826.png" alt="">
-          坚果 Pro 2S
-        </div>
-        <div class="right">&gt;</div>
-      </li>
+      </router-link >
     </ul>
   </div>
 </template>
 <script>
 export default {
-  
+  name: 'CategoryMobile',
+  data() {
+    return {
+      list: [],
+      baseProductUrl: '/product/'
+    }
+  },
+  methods: {
+    getCategoryMobile() {
+      this.axios.get('https://www.easy-mock.com/mock/5d5bb45db009ce622b9ded94/api/catoryMobile')
+        .then(this.getCategoryMobileSuccess)
+        .catch(err => console.log(err))
+    },
+    getCategoryMobileSuccess(res) {
+      if(res.status ===200 && res.data.code ===1) {
+        this.list = res.data.data
+      }
+    }
+  },
+  mounted() {
+    this.getCategoryMobile()
+  },
 }
 </script>
 <style lang="scss" scoped>
@@ -40,10 +57,11 @@ export default {
   .img-content{
     padding: .7rem .8rem;
     border-radius: .3rem;
+    overflow: hidden;
+    border: none;
     img{
       width: 100%;
-      box-shadow: -7px 5px 10px #ccc;
-      border: none;
+      box-shadow: -7px 5px 30px #ccc;
     }
   }
   .mobile-list{
