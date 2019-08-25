@@ -47,6 +47,7 @@ export default {
 <style lang="scss" scoped>
 .mobile-wrap{
   background: #fff;
+  margin-bottom: 6px;
   h2{
     line-height: 40px;
     border: 1px solid #EBEBEB;
