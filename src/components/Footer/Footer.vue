@@ -1,13 +1,16 @@
 <template>
   <div class="footer">
-    <div 
+
+    <router-link tag="div"
       v-for="(item, index) in bottomMenuData" :key="item.id"
-      @click="handleBottomMenuClick(item.id)"
+      @click.native="handleBottomMenuClick(item.id)"
       :class="{'current-nav': bottomMenuId === item.id}" 
+      :to="item.routeTo"
     >
       <span class="iconfont nav-home" v-html="item.navIcon"></span>
       <span class="nav-text" v-html="">{{item.navText}}</span>
-    </div>
+    </router-link>
+
   </div>
 </template>
 <script>
@@ -20,22 +23,26 @@ export default {
         {
           id: 1,
           navIcon: '&#xe613;',
-          navText: '首页'
+          navText: '首页',
+          routeTo: '/'
         },
         {
           id: 2,
           navIcon: '&#xe60a;',
-          navText: '分类'
+          navText: '分类',
+          routeTo: '/category'
         },
         {
           id: 3,
           navIcon: '&#xe656;',
-          navText: '购物车'
+          navText: '购物车',
+          routeTo: '/shoppingcart'
         },
         {
           id: 4,
           navIcon: '&#xe641;',
-          navText: '个人中心'
+          navText: '个人中心',
+          routeTo: '/mcenter'
         }
       ]
     }
