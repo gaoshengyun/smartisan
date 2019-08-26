@@ -2,7 +2,9 @@
   <div class="category-wrap">
     <top-bar :showLogo="showLogo" :showText="showText"></top-bar>
     <mobile></mobile>
-    <mobile-parts></mobile-parts>
+    <!-- 手机配件 -->
+    <mobile-parts :productInfo="mobilePartsInfo"></mobile-parts>
+    <!-- 鞋服 -->
   </div>
 </template>
 <script>
@@ -15,13 +17,29 @@ export default {
     return {
       showLogo: false,
       showText: '分类',
+      mobilePartsInfo: {}
     }
   },
   components: {
     TopBar,
     Mobile,
     MobileParts
-  }
+  },
+  methods: {
+     getCategoryMobilePatrs() {
+      this.axios.get('https://www.easy-mock.com/mock/5d5bb45db009ce622b9ded94/api/cateorymobileparts')
+        .then(this.getCategoryMobilePatrsSuccess)
+        .catch(err => console.log(err))
+    },
+    getCategoryMobilePatrsSuccess(res) {
+      if(res.status === 200 && res.data.code === 1) {
+        this.mobilePartsInfo = res.data.data
+      }
+    }
+  },
+  mounted() {
+    this.getCategoryMobilePatrs()
+  },
 }
 </script>
 <style lang="scss" scoped>
