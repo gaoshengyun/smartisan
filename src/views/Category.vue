@@ -2,11 +2,13 @@
   <div class="category-wrap">
     <top-bar :showLogo="showLogo" :showText="showText"></top-bar>
     <mobile></mobile>
+    <mobile-parts></mobile-parts>
   </div>
 </template>
 <script>
 import TopBar from '../components/TopBar/TopBar'
 import Mobile from '../components/Category/Mobile/mobile'
+import MobileParts from '../components/Category/MobileParts/MobileParts'
 export default {
   name: 'category',
   data() {
@@ -17,7 +19,8 @@ export default {
   },
   components: {
     TopBar,
-    Mobile
+    Mobile,
+    MobileParts
   }
 }
 </script>
