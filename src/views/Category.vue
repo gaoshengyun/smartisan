@@ -5,6 +5,7 @@
     <!-- 手机配件 -->
     <mobile-parts :productInfo="mobilePartsInfo"></mobile-parts>
     <!-- 鞋服 -->
+    <mobile-parts :productInfo="shoesClothingInfo"></mobile-parts>
   </div>
 </template>
 <script>
@@ -17,7 +18,8 @@ export default {
     return {
       showLogo: false,
       showText: '分类',
-      mobilePartsInfo: {}
+      mobilePartsInfo: {},
+      shoesClothingInfo: {}
     }
   },
   components: {
@@ -35,10 +37,23 @@ export default {
       if(res.status === 200 && res.data.code === 1) {
         this.mobilePartsInfo = res.data.data
       }
+    },
+    getCategoryShoesClothing() {
+      this.axios.get('https://www.easy-mock.com/mock/5d5bb45db009ce622b9ded94/api/shoesclothing')
+        .then(this.getCategoryShoesClothingSuccess)
+        .catch(err => console.log(err))
+
+    },
+    getCategoryShoesClothingSuccess(res) {
+      if(res.status === 200 && res.data.code === 1) {
+        this.shoesClothingInfo = res.data.data
+      }
+      
     }
   },
   mounted() {
     this.getCategoryMobilePatrs()
+    this.getCategoryShoesClothing()
   },
 }
 </script>
