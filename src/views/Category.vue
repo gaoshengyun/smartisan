@@ -39,7 +39,7 @@ export default {
       }
     },
     getCategoryShoesClothing() {
-      this.axios.get('https://www.easy-mock.com/mock/5d5bb45db009ce622b9ded94/api/shoesclothing')
+      this.axios.get('https://www.easy-mock.com/mock/5d5bb45db009ce622b9ded94/api/categoryshoesclothing')
         .then(this.getCategoryShoesClothingSuccess)
         .catch(err => console.log(err))
 
