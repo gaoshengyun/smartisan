@@ -62,6 +62,7 @@ export default {
 <style lang="scss" scoped>
 .category-wrap{
   padding-top: 50px;
-  background: #E4E4E4;
+  background: #E5E5E5;
+  padding-bottom: 50px;
 }
 </style>
