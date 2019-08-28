@@ -6,12 +6,14 @@
     <mobile-parts :productInfo="mobilePartsInfo"></mobile-parts>
     <!-- 鞋服 -->
     <mobile-parts :productInfo="shoesClothingInfo"></mobile-parts>
+    <changhuxi></changhuxi>
   </div>
 </template>
 <script>
 import TopBar from '../components/TopBar/TopBar'
 import Mobile from '../components/Category/Mobile/mobile'
 import MobileParts from '../components/Category/MobileParts/MobileParts'
+import Changhuxi from '../components/Category/Changhuxi/Changehuxi'
 export default {
   name: 'category',
   data() {
@@ -25,7 +27,8 @@ export default {
   components: {
     TopBar,
     Mobile,
-    MobileParts
+    MobileParts,
+    Changhuxi
   },
   methods: {
      getCategoryMobilePatrs() {
@@ -42,7 +45,6 @@ export default {
       this.axios.get('https://www.easy-mock.com/mock/5d5bb45db009ce622b9ded94/api/categoryshoesclothing')
         .then(this.getCategoryShoesClothingSuccess)
         .catch(err => console.log(err))
-
     },
     getCategoryShoesClothingSuccess(res) {
       if(res.status === 200 && res.data.code === 1) {
