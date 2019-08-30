@@ -2,7 +2,7 @@
   <div class="wrap-top-bar">
     <div class="top-bar">
       <div class="menu iconfont">&#xe609;</div>
-      <div class="menu">
+      <div class="menu center">
         <router-link tag="span" to="/" v-if="showLogo" class="logo"></router-link>
         <span v-else="showLogo" class="page-title"> {{showText}} </span>
       </div>
@@ -44,6 +44,9 @@ export default {
         background: url('../../assets/images/logo.png') no-repeat -1px -4px;
         background-size: cover;
       }
+    }
+    .center{
+      width: 100px;
     }
     .iconfont{
       font-size: 28px;
