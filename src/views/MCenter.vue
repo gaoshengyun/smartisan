@@ -1,6 +1,6 @@
 <template>
   <div class="wrap-m-center">
-    <top-bar></top-bar>
+    <top-bar :showLogo="showLogo" :showText="showText"></top-bar>
     <div class="m-center">
       <user-info></user-info>
       <member-center-card :cardContent="card1"></member-center-card>
@@ -18,6 +18,8 @@ export default {
   name: 'MCenter',
   data() {
     return {
+      showLogo: false,
+      showText: '个人中心',
       card1: [
         {
           id: 1,
