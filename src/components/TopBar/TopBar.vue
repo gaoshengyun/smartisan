@@ -41,7 +41,7 @@ export default {
       .logo{
         display: block;
         height: 50px;
-        background: url('../../assets/images/logo.png') no-repeat -1px -4px;
+        background: url('../../assets/images/logo.png') no-repeat -1px -23px;
         background-size: cover;
       }
     }

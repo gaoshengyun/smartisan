@@ -10,22 +10,22 @@
       <div class="more">&gt;</div>
     </div>
     <div class="user-order-nav-wrap">
-      <div class="user-order-nav">
+      <router-link to="/order/all" tag="div" class="user-order-nav">
         <span class="iconfont">&#xe626;</span>
         <span class="nav-text">全部订单</span>
-      </div>
-      <div class="user-order-nav">
+      </router-link>
+      <router-link to="/order/all" tag="div" class="user-order-nav">
         <span class="iconfont">&#xe605;</span>
         <span class="nav-text">待付款</span>
-      </div>
-      <div class="user-order-nav">
+      </router-link>
+      <router-link to="/order/all" tag="div" class="user-order-nav">
         <span class="iconfont">&#xe60b;</span>
         <span class="nav-text">待发货</span>
-      </div>
-      <div class="user-order-nav">
+      </router-link>
+      <router-link to="/order/all" tag="div" class="user-order-nav">
         <span class="iconfont">&#xe600;</span>
         <span class="nav-text">售后</span>
-      </div>
+      </router-link>
     </div>
   </div>
 </template>
