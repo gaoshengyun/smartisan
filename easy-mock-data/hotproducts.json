@@ -1,0 +1,76 @@
+{
+  "code": 1,
+  "data": [{
+      "id": 1,
+      "imgUrl": "https://resource.smartisan.com/resource/c892f825c80767c2bef15081352d2aa4.png",
+      "productName": "Smartisan T恤 丑小鸭",
+      "slogan": "一件虽然很丑,但是很贵的衣服",
+      "salePrice": "149.00",
+      "marketPrice": ""
+    },
+    {
+      "id": 2,
+      "imgUrl": "https://resource.smartisan.com/resource/1c13034d1028f3620d487c1db7184a51.jpg",
+      "productName": "Smartisan 帆布鞋",
+      "slogan": "一双踏实、舒适的帆布鞋",
+      "salePrice": "199.00",
+      "marketPrice": ""
+    },
+    {
+      "id": 3,
+      "imgUrl": "https://resource.smartisan.com/resource/a668d1a5f41b04ece82d76ded1e94d3a.jpg",
+      "productName": "坚果 QuickCharge 4+ 快速充电器",
+      "slogan": "全面兼容的 18W 快速充电",
+      "salePrice": "58.00",
+      "marketPrice": "59.00"
+    },
+    {
+      "id": 4,
+      "imgUrl": "https://resource.smartisan.com/resource/9bffe702b1f0aea221b1f18ddf886958.jpg",
+      "productName": "各色DNA检测套装",
+      "slogan": "千万级基因位点数据解读",
+      "salePrice": "449.00",
+      "marketPrice": "499.00"
+    },
+    {
+      "id": 5,
+      "imgUrl": "https://resource.smartisan.com/resource/b7105b0d819e610a9c38d7ca2a813e58.jpg",
+      "productName": "Smartisan 快充移动电源 10000mAh",
+      "slogan": "10000mAh 双向快充、轻盈便携、高标准安全保护",
+      "salePrice": "109.00",
+      "marketPrice": "129.00"
+    },
+    {
+      "id": 6,
+      "imgUrl": "https://resource.smartisan.com/resource/33954b3f6a2f1614c5482ef130af9cc8.jpg",
+      "productName": "坚果“电池形电池”移动电源",
+      "slogan": "别具一格的“全能型”移动电源",
+      "salePrice": "68.00",
+      "marketPrice": "69.00"
+    },
+    {
+      "id": 7,
+      "imgUrl": "https://resource.smartisan.com/resource/ce632bd67465027861707ec221b37c2d.jpg",
+      "productName": "Smartisan 半入耳式耳机",
+      "slogan": "经典配色、专业调音、高品质麦克风",
+      "salePrice": "39.00",
+      "marketPrice": "59.00"
+    },
+    {
+      "id": 8,
+      "imgUrl": "https://resource.smartisan.com/resource/6e96ccea3bd56bdd2243eb20330cec30.jpg",
+      "productName": "坚果砖式蓝牙小音箱",
+      "slogan": "一款设计出色、音质出众的随身音箱",
+      "salePrice": "99.00",
+      "marketPrice": "149.00"
+    },
+    {
+      "id": 9,
+      "imgUrl": "https://resource.smartisan.com/resource/dc53bd870ee64d2053ecc51750ece43a.jpg",
+      "productName": "Smartisan 原装快充充电器 18W",
+      "slogan": "18W 安全快充",
+      "salePrice": "39.00",
+      "marketPrice": "49.00"
+    }
+  ]
+}

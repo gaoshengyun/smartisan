@@ -1,0 +1,19 @@
+{
+  "code": 1,
+  "data": [{
+      "id": 1,
+      "imgUrl": "https://resource.smartisan.com/resource/2624798f0c8e8dda70e9b0ed20c32b49.jpg",
+      "url": "https://www.smartisan.com/activity/sale/233"
+    },
+    {
+      "id": 2,
+      "imgUrl": "https://resource.smartisan.com/resource/fda5c3e61a71c0f883bbd6c76516cd85.png",
+      "url": "https://www.smartisan.com/category/157"
+    },
+    {
+      "id": 3,
+      "imgUrl": "https://resource.smartisan.com/resource/72746f858aed5a812731c90d5f04b826.jpg",
+      "url": "https://www.smartisan.com/category/296?type=shop"
+    }
+  ]
+}

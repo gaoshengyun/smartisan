@@ -1,0 +1,46 @@
+{
+  "code": 1,
+  "data": {
+    "id": 1,
+    "title": "手机配件",
+    "bannerImg": "https://resource.smartisan.com/resource/092ccb4ad40c623954fddef7e2ad44d6.png",
+    "bannerProductId": 2,
+    "list": [{
+        "id": 1,
+        "imgUrl": "https://resource.smartisan.com/resource/d4480234a2f24b0ff5acd98288fd902d.jpg",
+        "productName": "Smartisan 双口 & 快充车载充电器",
+        "productId": 1
+      },
+      {
+        "id": 2,
+        "imgUrl": "https://resource.smartisan.com/resource/33954b3f6a2f1614c5482ef130af9cc8.jpg",
+        "productName": "坚果“电池形电池”移动电源",
+        "productId": 1
+      },
+      {
+        "id": 3,
+        "imgUrl": "https://resource.smartisan.com/resource/ce632bd67465027861707ec221b37c2d.jpg",
+        "productName": "Smartisan 半入耳式耳机",
+        "productId": 2
+      },
+      {
+        "id": 4,
+        "imgUrl": "https://resource.smartisan.com/resource/c44f0ab4da5591fc3d0f82b7ac0f4f65.jpg",
+        "productName": "坚果砖式蓝牙小音箱",
+        "productId": 1
+      },
+      {
+        "id": 5,
+        "imgUrl": "https://resource.smartisan.com/resource/dc53bd870ee64d2053ecc51750ece43a.jpg",
+        "productName": "Smartisan 原装快充充电器 18W",
+        "productId": 1
+      },
+      {
+        "id": 6,
+        "imgUrl": "https://resource.smartisan.com/resource/82aab62886740f165a3631ce6cffe895.jpg",
+        "productName": "坚果彩虹数据线",
+        "productId": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "code": 1,
+  "data": [{
+      "id": 1,
+      "imgUrl": "https://resource.smartisan.com/resource/25cc6e783a664fbdf83c3c34774a9826.png",
+      "productName": "坚果 Pro 2S",
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "imgUrl": "https://resource.smartisan.com/resource/17f254e6f809355d8fe66260ccb48fb0.png",
+      "productName": "坚果 R1",
+      "productId": 2
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "code": 1,
+  "data": [{
+      "id": 1,
+      "imgUrl": "https://resource.smartisan.com/resource/2f2afca6f88e3aef5b1f332ea0c1d65a.png",
+      "productName": "坚果 Pro 2S",
+      "productSlogan": "双系统，无限屏",
+      "salePrice": "1998.00",
+      "marketPrice": "",
+      "promotion": ""
+    },
+    {
+      "id": 2,
+      "imgUrl": "https://resource.smartisan.com/resource/25cc6e783a664fbdf83c3c34774a9826.png",
+      "productName": "坚果 Pro 2S",
+      "productSlogan": "双系统，无限屏",
+      "salePrice": "1998.00",
+      "marketPrice": "",
+      "promotion": ""
+    },
+    {
+      "id": 3,
+      "imgUrl": "https://resource.smartisan.com/resource/dc53bd870ee64d2053ecc51750ece43a.jpg",
+      "productName": "Smartisan 原装快充充电器 18W",
+      "productSlogan": "18W 安全快充",
+      "salePrice": "39.00",
+      "marketPrice": "49.00",
+      "promotion": "限时直降"
+    },
+    {
+      "id": 4,
+      "imgUrl": "https://resource.smartisan.com/resource/8635cb91f2cdbbc5576e069c52b99412.jpg",
+      "productName": "坚果 Type-C To Type-C 数据线",
+      "productSlogan": "TPE 环保材质，PTC 过温保护",
+      "salePrice": "36.00",
+      "marketPrice": "39.00",
+      "promotion": "限时直降"
+    },
+    {
+      "id": 5,
+      "imgUrl": "https://resource.smartisan.com/resource/45312fb748d54aa2e58a8f4d637e9e65.jpg",
+      "productName": "Smartisan 耳机转接头",
+      "productSlogan": "即插即用、全面兼容",
+      "salePrice": "19.00",
+      "marketPrice": "",
+      "promotion": ""
+    },
+    {
+      "id": 6,
+      "imgUrl": "https://resource.smartisan.com/resource/a668d1a5f41b04ece82d76ded1e94d3a.jpg",
+      "productName": "坚果 QuickCharge 4+ 快速充电器",
+      "productSlogan": "全面兼容的 18W 快速充电",
+      "salePrice": "58.00",
+      "marketPrice": "59.00",
+      "promotion": "限时直降"
+    },
+  ]
+}

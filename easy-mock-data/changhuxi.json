@@ -1,0 +1,41 @@
+{
+  "code": 1,
+  "data": [{
+      "id": 1,
+      "imgUrl": "https://resource.smartisan.com/resource/6ff92d05a3bfab4fad489ca04d3eea5a.png",
+      "productName": "畅呼吸智能空气净化器 · 标准版",
+      "productSlogan": "超强净化能力、超低噪音、超长寿命",
+      "salePrice": "2799.00",
+      "marketPrice": "",
+      "promotion": "限时直降"
+    },
+    {
+      "id": 2,
+      "imgUrl": "https://resource.smartisan.com/resource/71432ad30288fb860a4389881069b874.png",
+      "productName": "畅呼吸智能空气净化器 · 超级除甲醛版",
+      "productSlogan": "超强除甲醛能力，超低噪音，智能操控",
+      "salePrice": "2999.00",
+      "marketPrice": "",
+      "promotion": "双11直降"
+    },
+    {
+      "id": 3,
+      "imgUrl": "https://resource.smartisan.com/resource/00eee903962f17d75950397843117e6e.jpg",
+      "productName": "畅呼吸除霾除甲醛高效复合滤芯",
+      "productSlogan": "精选双层防护材质、过滤更精细、去味更有效",
+      "salePrice": "699.00",
+      "marketPrice": "",
+      "promotion": "双12直降"
+    },
+    {
+      "id": 4,
+      "imgUrl": "https://resource.smartisan.com/resource/4d83d72c5ecc288e8d5ddd9d06b80f99.jpg",
+      "productName": "畅呼吸除甲醛超级活性炭滤芯",
+      "productSlogan": "家装等场景适用的专业除甲醛超级活性炭滤芯",
+      "salePrice": "599.00",
+      "marketPrice": "",
+      "promotion": ""
+    },
+    
+  ]
+}

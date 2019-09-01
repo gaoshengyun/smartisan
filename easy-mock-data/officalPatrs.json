@@ -1,0 +1,58 @@
+{
+  "code": 1,
+  "data": [{
+      "id": 1,
+      "imgUrl": "https://resource.smartisan.com/resource/d4480234a2f24b0ff5acd98288fd902d.jpg",
+      "productName": "Smartisan 双口 & 快充车载充电器",
+      "productSlogan": "铝合金机身、双口 & 快充、智能调节",
+      "salePrice": "59.00",
+      "marketPrice": "79.00",
+      "promotion": "限时直降"
+    },
+    {
+      "id": 2,
+      "imgUrl": "https://resource.smartisan.com/resource/f55641e23f35f6dd82226b6c4a043f00.jpg",
+      "productName": "坚果三脚架自拍杆",
+      "productSlogan": "两种模式，随时随地都能拍得开心",
+      "salePrice": "89.00",
+      "marketPrice": "99.00",
+      "promotion": "双11直降"
+    },
+    {
+      "id": 3,
+      "imgUrl": "https://resource.smartisan.com/resource/8a875418797690e26b665cc0d86dffc7.jpg",
+      "productName": "Smartisan 半入耳式耳机",
+      "productSlogan": "经典配色、专业调音、高品质麦克风",
+      "salePrice": "39.00",
+      "marketPrice": "59.00",
+      "promotion": "双12直降"
+    },
+    {
+      "id": 4,
+      "imgUrl": "https://resource.smartisan.com/resource/82aab62886740f165a3631ce6cffe895.jpg",
+      "productName": "坚果彩虹数据线",
+      "productSlogan": "七彩配色随机发货，为生活增添一份小小惊喜",
+      "salePrice": "16.00",
+      "marketPrice": "19.00",
+      "promotion": ""
+    },
+    {
+      "id": 5,
+      "imgUrl": "https://resource.smartisan.com/resource/c44f0ab4da5591fc3d0f82b7ac0f4f65.jpg",
+      "productName": "坚果砖式蓝牙小音箱",
+      "productSlogan": "一款设计出色、音质出众的随身音箱",
+      "salePrice": "99.00",
+      "marketPrice": "149.00",
+      "promotion": "春节直降"
+    },
+    {
+      "id": 6,
+      "imgUrl": "https://resource.smartisan.com/resource/f319b26eb69e8ba351423abfad347eae.jpg",
+      "productName": "Smartisan 快充移动电源 10000mAh",
+      "productSlogan": "10000mAh 双向快充、轻盈便携、高标准安全保护",
+      "salePrice": "109.00",
+      "marketPrice": "129.00",
+      "promotion": "任性直降"
+    },
+  ]
+}

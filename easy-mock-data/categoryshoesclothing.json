@@ -1,0 +1,46 @@
+{
+  "code": 1,
+  "data": {
+    "id": 1,
+    "title": "鞋服",
+    "bannerImg": "https://resource.smartisan.com/resource/790e2855df8a62dfbabea0130a3fdacf.png",
+    "bannerProductId": 2,
+    "list": [{
+        "id": 1,
+        "imgUrl": "https://resource.smartisan.com/resource/c892f825c80767c2bef15081352d2aa4.png",
+        "productName": "Smartisan T恤 丑小鸭",
+        "productId": 1
+      },
+      {
+        "id": 2,
+        "imgUrl": "https://resource.smartisan.com/resource/2f9a0f5f3dedf0ed813622003f1b287b.jpg",
+        "productName": "Smartisan 帆布鞋",
+        "productId": 1
+      },
+      {
+        "id": 3,
+        "imgUrl": "https://resource.smartisan.com/resource/22f9e824c1cf7e8fad3d432ee494b932.png",
+        "productName": "Smartisan T恤 薛定谔",
+        "productId": 2
+      },
+      {
+        "id": 4,
+        "imgUrl": "https://resource.smartisan.com/resource/25cd192a66e0dbd0f12dd723d1ea53f2.jpg",
+        "productName": "地平线 8 号 全功能城市背包 Atlas X",
+        "productId": 1
+      },
+      {
+        "id": 5,
+        "imgUrl": "https://resource.smartisan.com/resource/db4895e45ee6f3339037dbf7200e63f2.png",
+        "productName": "地平线 8 号旅行箱",
+        "productId": 1
+      },
+      {
+        "id": 6,
+        "imgUrl": "https://resource.smartisan.com/resource/9960e83a55544fbf7b046013a6f7f414.jpg",
+        "productName": "地平线 8 号 28 寸旅行箱",
+        "productId": 2
+      }
+    ]
+  }
+}

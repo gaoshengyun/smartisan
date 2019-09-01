@@ -1,0 +1,40 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": 1,
+      "imgUrl": "https://resource.smartisan.com/resource/fc092e830c0420b5d8db2871fec82b35.png",
+      "productName": "地平线 8 号旅行箱",
+      "productSlogan": "简约设计、德国拜耳 PC 箱体",
+      "productPrice": "299.00"
+    },
+    {
+      "id": 2,
+      "imgUrl": "https://resource.smartisan.com/resource/66b25ef2a60c262b6c2de2e2b60acb09.png",
+      "productName": "Smartisan T恤 红白机",
+      "productSlogan": "男款",
+      "productPrice": "149.00"
+    },
+    {
+      "id": 3,
+      "imgUrl": "https://resource.smartisan.com/resource/634985c17a054755ca0bb9716813562b.png",
+      "productName": "Smartisan T恤 迪特拉姆斯",
+      "productSlogan": "男款",
+      "productPrice": "149.00"
+    },
+    {
+      "id": 4,
+      "imgUrl": "https://resource.smartisan.com/resource/d9586f7c5bb4578e3128de77a13e4d85.png",
+      "productName": "Smartisan T恤 皇帝的新装",
+      "productSlogan": "男款",
+      "productPrice": "149.00"
+    },
+    {
+      "id": 5,
+      "imgUrl": "https://resource.smartisan.com/resource/d1dcca9144e8d13ffb33026148599d0a.png",
+      "productName": "地平线 8 号商务旅行箱",
+      "productSlogan": "为了野心和远方",
+      "productPrice": "999.00"
+    }
+  ]
+}

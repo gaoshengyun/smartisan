@@ -1,29 +1,23 @@
 # smartisan
 
-## Project setup
+## 项目初始化
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 运行开发环境
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 打包项目
 ```
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
+### 数据来源说明
 
-### Lints and fixes files
-```
-npm run lint
-```
+>数据使用[easy-mock](https://www.easy-mock.com)生成,用到的数据文件已存放至`/easy-mock-data`文件夹下.
 
-### Customize configuration
+### 打包配置详见
 See [Configuration Reference](https://cli.vuejs.org/config/).
