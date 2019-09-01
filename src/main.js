@@ -23,6 +23,11 @@ Vue.use(VueAwesomeSwiper)
 Vue.config.productionTip = false
 fastclick.attach(document.body)
 
+router.beforeEach((to, from, next) => {
+  window.document.title = to.meta.title
+  next()
+})
+
 new Vue({
   router,
   store,
